@@ -37,7 +37,7 @@ let [comp_score, user_score] = [0,0];
         Lizard: 'win',
         Spock: 'draw'
     }
-}
+};
     
     function clicked(input) {
     let choices = ["Rock", "Paper", "Scissors", "Lizard", "Spock"];
@@ -92,6 +92,6 @@ let [comp_score, user_score] = [0,0];
 const setLocalStorageData = () => {
     document.getElementById('comp_score').innerHTML = localStorage.getItem('compInputValue');
     document.getElementById('user_score').innerHTML = localStorage.getItem('userInputValue'); 
-  } 
+  }; 
   setLocalStorageData();
     
