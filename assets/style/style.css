@@ -86,10 +86,7 @@ header {
     text-align: center;
 }
 
-.game-logo {
-    position: relative;
-    background-repeat: none;
-}
+
 
 @media only screen and (max-width: 900px) {
     body {
