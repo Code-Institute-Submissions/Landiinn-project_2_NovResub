@@ -4,9 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
-<body>
+    <body>
+        
+        <section class="game">
+            <header>
+                <div class="title">
+                <h1>Paper Scissor Lizard or Spock?</h1>
+                </div>
+            </header>
+
+            
+                <div class="score">
+                    <p class="playerScore">Opponents Score: <span id="comp_score">0</span></p>
+                    <p class="computerScore">Your Score: <span id="user_score">0</span></p>
+                </div>
+            
+    
+            <div class="game-box">
+                <button class="rock" title="Rock" onclick="clicked('Rock')">Rock</button>
+                <button class="paper" title="Paper" onclick="clicked('Paper')">Paper</button>
+                <button class="scissor" title="Scissors" onclick="clicked('Scissors')">Scissor</button>
+                <button class="lizard" title="Lizard" onclick="clicked('Lizard')">Lizard</button>
+                <button class="spock" title="Spock" onclick="clicked('Spock')">Spock</button>
+            </div>
+            <div class="last-part">
+                <p class="choosing-part-comp p-light" id="compChoice"></p>
+                <p class="choosing-part-user p-light" id="userChoice"></p>
+                <p id="result"></p>
+            </div>
+            <button class="reload"></button>     
+        </div>
+    <script src="/assets/script/script.js"></script>     
+    </body>
     
 </body>
 </html>
