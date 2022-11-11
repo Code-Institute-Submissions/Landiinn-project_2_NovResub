@@ -65,11 +65,11 @@ const game = () => {
         }if(computer == 'rock'){
             result.textContent = 'You both choose Rock, Tie';
         }if(computer == 'lizard'){
-                result.textContent = 'Computer choose Lizard, Point to you'
+                result.textContent = 'Computer choose Lizard, Point to you';
                 userScore++;
                 userScoreBoard.textContent = userScore;
         }if(computer == 'spock'){
-                result.textContent = 'Computer choose Spock, Point to Computer'
+                result.textContent = 'Computer choose Spock, Point to Computer';
                 computerScore++;
                 computerScoreBoard.textContent = computerScore;
             }
@@ -78,22 +78,22 @@ const game = () => {
     if(user == 'scissors'){
         console.log(computer);
         if(computer == 'paper'){
-            result.textContent = 'You Won';
+            result.textContent = 'Computer choose Paper, Point to You';
             userScore++;
             userScoreBoard.textContent = userScore;
             console.log(computer)
         }if(computer == 'scissors'){
-            result.textContent = 'Tie';
+            result.textContent = 'You both choose Scissors, Tie';
         }if(computer == 'rock'){
-            result.textContent = 'Computer Won'
+            result.textContent = 'Computer choose Rock, Point to Computer';
             computerScore++;
             computerScoreBoard.textContent = computerScore;
         }if(computer == 'lizard'){
-            result.textContent = 'You Won'
+            result.textContent = 'Computer choose Lizard, Point to you';
             userScore++;
             userScoreBoard.textContent = userScore;
         }if(computer == 'spock'){
-            result.textContent = 'Computer Won'
+            result.textContent = 'Computer choose Spock, Point to Computer';
             computerScore++;
             computerScoreBoard.textContent = computerScore;
           }
@@ -101,21 +101,21 @@ const game = () => {
     if(user == 'paper'){
         console.log(computer);
         if(computer == 'rock'){
-            result.textContent = 'You Won';
+            result.textContent = 'Computer choose Rock, Point to You';
             userScore++;
             userScoreBoard.textContent = userScore;
         }if(computer == 'scissors'){
-            result.textContent = 'Computer Won'
+            result.textContent = 'Computer choose Scissors, Point to Computer';
             computerScore++;
             computerScoreBoard.textContent = computerScore;
         }if(computer == 'paper'){
-            result.textContent = 'Tie';
+            result.textContent = 'You both choose Paper, Tie';
         }if(computer == 'spock'){
-            result.textContent = 'You Won';
+            result.textContent = 'Computer choose Spock, Point to You';
             userScore++;
             userScoreBoard.textContent = userScore;
         }if(computer == 'lizard'){
-            result.textContent = 'Computer Won';
+            result.textContent = 'Computer choose Lizard, Point to Computer';
             computerScore++;
             computerScoreBoard.textContent = computerScore;
         }
@@ -123,49 +123,49 @@ const game = () => {
     if(user == 'lizard'){
         console.log(computer);
         if(computer == 'rock'){
-            result.textContent = 'Computer Won'
+            result.textContent = 'Computer choose Rock, Point to Computer';
             computerScore++;
             computerScoreBoard.textContent = computerScore;
         }if(computer == 'scissors'){
-            result.textContent = 'Computer Won'
+            result.textContent = 'Computer choose Scissors, Point to Computer';
             computerScore++;
             computerScoreBoard.textContent = computerScore; 
         }if(computer == 'paper'){
-            result.textContent = 'You Won';
+            result.textContent = 'Computer choose Paper, Point to You';
             userScore++;
             userScoreBoard.textContent = userScore;
         }if(computer == 'spock'){
-            result.textContent = 'You Won';
+            result.textContent = 'Computer choose Spock, Point to You';
             userScore++;
             userScoreBoard.textContent = userScore;
         }if(computer == 'lizard'){
-            result.textContent = 'Tie';
+            result.textContent = 'You both choose Lizard, Tie';
         }
     }
     if(user == 'spock'){
         console.log(computer);
         if(computer == 'rock'){
-            result.textContent = 'You Won';
+            result.textContent = 'Computer choose Rock, Point to You';
             userScore++;
             userScoreBoard.textContent = userScore;
         }
         if(computer == 'scissors'){
-            result.textContent = 'You Won';
+            result.textContent = 'Computer choose Scissors, Point to You';
             userScore++;
             userScoreBoard.textContent = userScore;
         }
         if(computer == 'paper'){
-            result.textContent = 'Computer Won'
+            result.textContent = 'Computer choose Paper, Point to Computer';
             computerScore++;
             computerScoreBoard.textContent = computerScore; 
         }
         if(computer == 'lizard'){
-            result.textContent = 'Computer Won'
+            result.textContent = 'Computer choose Lizard, Point to Computer';
             computerScore++;
             computerScoreBoard.textContent = computerScore; 
         }
         if(computer == 'spock'){
-            result.textContent = 'Tie';
+            result.textContent = 'You both choose Spock, Tie';
         }
     }
 } 
