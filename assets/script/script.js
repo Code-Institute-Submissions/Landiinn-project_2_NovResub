@@ -37,7 +37,7 @@ const game = () => {
             })
         })
          
-    
+    } 
 
 
   // Function to decide winner
@@ -53,11 +53,11 @@ const game = () => {
         result.textContent = 'Tie'
     }
     if(user == 'rock'){
+        console.log(computer);
         if(computer == 'paper'){
             result.textContent = 'Computer Won';
             computerScore++;
             computerScoreBoard.textContent = computerScore;
-            console.log(computer)
         }if(computer == 'scissors'){
             result.textContent = 'You Won'
             userScore++;
@@ -73,8 +73,10 @@ const game = () => {
                 computerScore++;
                 computerScoreBoard.textContent = computerScore;
             }
+        }
         
     if(user == 'scissors'){
+        console.log(computer);
         if(computer == 'paper'){
             result.textContent = 'You Won';
             userScore++;
@@ -94,8 +96,8 @@ const game = () => {
             result.textContent = 'Computer Won'
             computerScore++;
             computerScoreBoard.textContent = computerScore;
+          }
         }
-
     if(user == 'paper'){
         if(computer == 'rock'){
             result.textContent = 'You Won';
@@ -116,16 +118,8 @@ const game = () => {
             computerScore++;
             computerScoreBoard.textContent = computerScore;
         }
-    if(user == 'lizard'){
-        
     }
-        }
-        }
-    }
- 
-    
-  
-}
+} 
 
 
  // Function to run when game is over
@@ -166,7 +160,7 @@ const game = () => {
 }
     
 
-  }
+  
 playGame(); 
 
 }
