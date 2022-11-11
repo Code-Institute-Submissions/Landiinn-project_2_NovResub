@@ -40,7 +40,7 @@ const game = () => {
     } 
 
 
-  // Function to decide winner
+  // Function to decide who wins
   const winner = (user,computer) => {
     const result = document.querySelector('#result');
     const userScoreBoard = document.querySelector('#user_score');
@@ -99,6 +99,7 @@ const game = () => {
           }
         }
     if(user == 'paper'){
+        console.log(computer);
         if(computer == 'rock'){
             result.textContent = 'You Won';
             userScore++;
@@ -119,6 +120,54 @@ const game = () => {
             computerScoreBoard.textContent = computerScore;
         }
     }
+    if(user == 'lizard'){
+        console.log(computer);
+        if(computer == 'rock'){
+            result.textContent = 'Computer Won'
+            computerScore++;
+            computerScoreBoard.textContent = computerScore;
+        }if(computer == 'scissors'){
+            result.textContent = 'Computer Won'
+            computerScore++;
+            computerScoreBoard.textContent = computerScore; 
+        }if(computer == 'paper'){
+            result.textContent = 'You Won';
+            userScore++;
+            userScoreBoard.textContent = userScore;
+        }if(computer == 'spock'){
+            result.textContent = 'You Won';
+            userScore++;
+            userScoreBoard.textContent = userScore;
+        }if(computer == 'lizard'){
+            result.textContent = 'Tie';
+        }
+    }
+    if(user == 'spock'){
+        console.log(computer);
+        if(computer == 'rock'){
+            result.textContent = 'You Won';
+            userScore++;
+            userScoreBoard.textContent = userScore;
+        }
+        if(computer == 'scissors'){
+            result.textContent = 'You Won';
+            userScore++;
+            userScoreBoard.textContent = userScore;
+        }
+        if(computer == 'paper'){
+            result.textContent = 'Computer Won'
+            computerScore++;
+            computerScoreBoard.textContent = computerScore; 
+        }
+        if(computer == 'lizard'){
+            result.textContent = 'Computer Won'
+            computerScore++;
+            computerScoreBoard.textContent = computerScore; 
+        }
+        if(computer == 'spock'){
+            result.textContent = 'Tie';
+        }
+    }
 } 
 
 
@@ -134,21 +183,21 @@ const game = () => {
     })
 
   
-    chooseMove.innerText = 'Game Over!!'
+    chooseMove.innerText = 'Game Over!'
     roundsLeft.style.display = 'none';
 
     if(userScore > computerScore){
-        result.style.fontSize = '2rem';
+        result.style.fontSize = '40px';
         result.innerText = 'You Won The Game'
-        result.style.color = '#308D46';
+        result.style.color = 'green';
     }
     else if(userScore < computerScore){
-        result.style.fontSize = '2rem';
+        result.style.fontSize = '40px';
         result.innerText = 'You Lost The Game';
         result.style.color = 'red';
     }
     else{
-        result.style.fontSize = '2rem';
+        result.style.fontSize = '40px';
         result.innerText = 'Tie';
         result.style.color = 'grey'
     }
@@ -167,3 +216,5 @@ playGame();
 
 
 game();
+
+

@@ -12,11 +12,16 @@
         rel="stylesheet">
 
     <title>Document</title>
+    <script>
+        function ruleMessage(){
+            alert("Game Rules: \nRock beats  \nPaper beats \nScissors beats \nLizard beats \nSpock beats")
+        }
+    </script>
 </head>
 
-<body>
+<body onload="ruleMessage()">
     <h2 class="myname">André Landin</h2>
-    <div class="infoScreen"><button>info</button></div>
+    <div class="infoScreen" onclick="ruleMessage()"><button>info</button></div>
     <header>
         <div class="title">
             <h1>Paper Scissor Lizard or Spock?</h1>
