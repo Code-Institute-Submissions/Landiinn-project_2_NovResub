@@ -55,21 +55,21 @@ const game = () => {
     if(user == 'rock'){
         console.log(computer);
         if(computer == 'paper'){
-            result.textContent = 'Computer Won';
+            result.textContent = 'Computer choose Paper, Point to Computer';
             computerScore++;
             computerScoreBoard.textContent = computerScore;
         }if(computer == 'scissors'){
-            result.textContent = 'You Won'
+            result.textContent = 'Computer choose Scissors, Point to you';
             userScore++;
             userScoreBoard.textContent = userScore;
         }if(computer == 'rock'){
-            result.textContent = 'Tie';
+            result.textContent = 'You both choose Rock, Tie';
         }if(computer == 'lizard'){
-                result.textContent = 'You Won'
+                result.textContent = 'Computer choose Lizard, Point to you'
                 userScore++;
                 userScoreBoard.textContent = userScore;
         }if(computer == 'spock'){
-                result.textContent = 'Computer Won'
+                result.textContent = 'Computer choose Spock, Point to Computer'
                 computerScore++;
                 computerScoreBoard.textContent = computerScore;
             }
@@ -171,7 +171,7 @@ const game = () => {
 } 
 
 
- // Function to run when game is over
+ // endgame function
  const gameOver = (userChoice,roundsLeft) => {
  
     const chooseMove = document.querySelector('.move');
