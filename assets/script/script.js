@@ -189,7 +189,7 @@ const game = () => {
     if(userScore > computerScore){
         result.style.fontSize = '40px';
         result.innerText = 'You Won The Game'
-        result.style.color = 'green';
+        result.style.color = 'limegreen';
     }
     else if(userScore < computerScore){
         result.style.fontSize = '40px';
@@ -202,7 +202,8 @@ const game = () => {
         result.style.color = 'grey'
     }
     reloadBtn.innerText = 'Restart';
-    reloadBtn.style.display = 'flex'
+    reloadBtn.style.display = 'center';
+    reloadBtn.style.fontSize = '40px';
     reloadBtn.addEventListener('click',() => {
         window.location.reload();
     })

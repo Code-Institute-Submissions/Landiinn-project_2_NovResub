@@ -14,29 +14,34 @@
     <title>Document</title>
     <script>
         function ruleMessage(){
-            alert("Game Rules: \nRock crushes Scissors and Lizard \nPaper cover rock and disproves Spock \nScissors cuts Paper and decapitates Lizard \nLizard eats Paper and Poisons Spock \nSpock smashes Scissors and vaporizes Rock")
+            alert("Game Rules: \nRock crushes Scissors and Lizard \nPaper cover rock and disproves Spock \nScissors cuts Paper and decapitates Lizard \nLizard eats Paper and Poisons Spock \nSpock smashes Scissors and vaporizes Rock \n\nPress How to Play/Rules to show again")
         }
     </script>
 </head>
 
 <body onload="ruleMessage()">
-    <h2 class="myname">André Landin</h2>
-    <div class="infoScreen" onclick="ruleMessage()"><button>info</button></div>
+    <h2 class="myname">André Landin || Rock Paper Scissors Lizard Spock</h2>
+    <div class="infoScreen" onclick="ruleMessage()"><button class="rules">How to Play/Rules</button></div>
     <header>
-        <div class="title">
-            <h1>Paper Scissor Lizard or Spock?</h1>
-        </div>
+        
     </header>
 
     
         <div class="score">
-            <p class="computerScore">Opponents Score: <span id="comp_score">0</span></p>
+            
             <p class="userScore">Your Score: <span id="user_score">0</span></p>
-            <p class="rounds"><span id="rounds_left">0</span></p>
+            <p class="computerScore">Opponents Score: <span id="comp_score">0</span></p>
+            <p class="rounds"><span id="rounds_left">Rounds Left: 10</span></p>
         
         </div>
 
         <div class="move">Make your move</div>
+        
+        <div class="last-part">
+            <p class="choosing-part-comp p-light" id="compChoice"></p>
+            <p class="choosing-part-user p-light" id="userChoice"></p>
+            <p id="resultboard"><span id="result">What do you choose?</span></p>
+        </div>
 
         <div class="game-box">
             <button class="rock">Rock</button>
@@ -45,11 +50,7 @@
             <button class="lizard">Lizard</button>
             <button class="spock">Spock</button> 
         </div>
-        <div class="last-part">
-            <p class="choosing-part-comp p-light" id="compChoice"></p>
-            <p class="choosing-part-user p-light" id="userChoice"></p>
-            <p id="resultboard"><span id="result"></span></p>
-        </div>
+        
         <button class="reload"></button>
    
     <script src="/assets/script/script.js"></script>

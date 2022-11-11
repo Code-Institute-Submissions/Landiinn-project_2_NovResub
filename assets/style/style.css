@@ -1,7 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Oswald', sans-serif;
-    background-color: darkgray;
+    background-color: #28458f;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -9,8 +9,11 @@ body {
 
 .myname {
    
-    margin-top: 1px;
+    margin-top: 0px;
     margin-bottom: 1px;
+    font-size: 40px;
+    color: white;
+    background-color: black;
 }
 
 header {
@@ -18,13 +21,34 @@ header {
     margin-top: 1px;
 }
 
-.rock, .paper, .scissor, .lizard, .spock, .reload {
+.move {
+
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+}
+
+#result {
+    color: white;
+}
+
+.reload {
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.rules {
+    text-decoration: underline;
+}
+
+.rock, .paper, .scissor, .lizard, .spock, .reload, .rules {
     padding: 0;
     align-items: center;
     border-style: none;
-    color:black;
-    background-color: darkgray;
-    font-size:2em;
+    color:white;
+    background-color: #28458f;
+    font-size:1em;
     margin: 2em;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -32,12 +56,12 @@ header {
     
 }
 
-.rock:hover, .paper:hover, .scissor:hover, .lizard:hover, .spock:hover, .reload:hover {
+.rock:hover, .paper:hover, .scissor:hover, .lizard:hover, .spock:hover, .reload:hover, .rules:hover {
     
     cursor:pointer;
-    background-color:black;
+    background-color:#375fc4;
     color:white;
-    box-shadow: 0 0 50px black;
+    box-shadow: 0 0 50px white;
     scale: 1.2;
     
 }
@@ -57,13 +81,14 @@ header {
 
 }
 
-.score, .playerScore, .computerScore {
+.score, .userScore, .computerScore {
     
     vertical-align: top;
     display: inline-block;
     margin:1em;
     align-items: center;
-    font-size:1em;
+    font-size:1.5em;
+    color: white;
    
 }
 
