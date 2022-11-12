@@ -31,4 +31,13 @@ Spock beats: Scissors and Rock
 <img src="/workspace/project_2/assets/images/responsive1.png" width="50%">
 <img src="/workspace/project_2/assets/images/responsive2.png" width="50%">
 
+<p>My code has been validated through: https://validator.w3.org/,  https://jigsaw.w3.org/css-validator/ and https://esprima.org/demo/validate.html
+
+<img src="/workspace/project_2/assets/images/validatorhtml.png" width="50%">
+<img src="/workspace/project_2/assets/images/valideringcss.png" width="50%">
+
+<p>I did get a error on my CSS. The problem that exist according to the validator is that the upscaling doesn't exist. I have checked my code several times to make sure it works properly.
+
+<img src="/workspace/project_2/assets/images/validator.png" width="50%">
+
 Good Luck!
