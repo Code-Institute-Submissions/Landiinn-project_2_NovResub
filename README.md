@@ -1,28 +1,34 @@
-<img src="/assets/images/p2 win.png">
+<h1>Welcome to my REMADE Project nr.2!</h1>
+<img src="/workspace/project_2/assets/images/welcomescreen.png" width="50%">
+<p>This was the first time trying javascript and I can honstly say, I need to focus more on this.
+But, this is my remade version. And I am proud with the progress.
+The rules to decide winner was a treat to figure out, since applying 2 alternatives per choice caused crashes. But Im proud with this project.
+Although I am happy with the result, my credit goes to ="https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/". 
+This worked as a perfect guideLine to figure out where to put all the functions to make them work properly.</p>
 
-Welcome to my Project nr.2.
+<img src="/workspace/project_2/assets/images/welcomescreen.png" width="50%">
 
-This was the first time trying javascript and I can honstly say, I need to focus more on this.
-Although I am happy with the result, my credit goes to ="https://github.com/partha7978/Rock-Paper-Scissors-Lizard-Spock/blob/main/scripts/script.js".
+<p>My old code was from following a bad example and I ended up clueless to what the codes did.
+This time around though, with my new knowledge, gave me the possibilities to write, adapt and troubleshoot my codes with ease.
+And I had a blast.
+</p>
 
-Most of the code is taken from here and modified to fit my needs. 
-The result is beautiful, but not perfect.
-My issues: I didn't manage to run a "roundlimit" and making it work. So it is a non-stop loop for now, and something I will return to.
-
-The rules for the game is simple..
+<h2>The rules for the game is simple..
 Pick a choice, and make the right one. 
 If you don't, the computer gets the score, but if you do, then you'll get the score.
+</h2>
 
-<img src="/assets/images/p2 draw.png">
+<img src="/workspace/project_2/assets/images/win.png" width="50%">
 
-Rock beats: Scissors and Lizard
+<p>Rock beats: Scissors and Lizard
 Sciccors beats: Paper and Lizard
 Paper beats: Rock and Spock
 Lizard beats: Spock and Paper
 Spock beats: Scissors and Rock
+</p>
 
-<img src="/assets/images/p2 draw.png">
-<img src="/assets/images/p2 responsive 1.png">
-<img src="/assets/images/p2 responsive 2.png">
+<img src="/workspace/project_2/assets/images/draw.png" width="50%">
+<img src="/workspace/project_2/assets/images/responsive1.png" width="50%">
+<img src="/workspace/project_2/assets/images/responsive2.png" width="50%">
 
 Good Luck!
