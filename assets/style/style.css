@@ -49,26 +49,28 @@ header {
 }
 
 .rock, .paper, .scissor, .lizard, .spock, .reload, .rules {
-    padding: 5px;
+    padding: 0;
     align-items: center;
     border-style: none;
     color:white;
-    background-color: #28458f;
+    
     font-size:1em;
-    margin: 1.5em;
+    margin: 0.5em;
     margin-top: 1em;
     margin-bottom: 1em;
+    background-size: contain;
+    
+    border-radius: 15px;
+    
+
     
     
 }
 
 .rock, .paper, .scissor, .lizard, .spock, .reload {
-
-    width: 10%;
-    
-    
+background-color: black;
+ width: 15%;   
 }
-
 .rock:hover, .paper:hover, .scissor:hover, .lizard:hover, .spock:hover, .reload:hover, .rules:hover {
     
     cursor:pointer;
@@ -77,6 +79,11 @@ header {
     box-shadow: 0 0 50px white;
     scale: 1.2;
     
+}
+
+.rules {
+
+    background-color: #28458f;
 }
 
 .title {
@@ -204,7 +211,8 @@ header {
     .rules {
         font-size: 20px;
         margin: 5px;
-        width: 100%;
+        width: 30%;
+        background-color: #28458f;
      }
 
 }
@@ -282,9 +290,10 @@ header {
     }
 
     .rules {
-        font-size: 15px;
+        font-size: 20px;
         margin: 0px;
         width: 100%;
+        background-color: #28458f;
     }
 
     #rounds_left {
